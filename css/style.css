@@ -1,0 +1,2789 @@
+.sec6 form input, .sec7 input, .map .contact-form form input, .bazarat .bazrat-search .input-style input, .bazarat .bazrat-search .dropdown .date, .first-step .steps .f-box-book input, .first-step .steps select, .sacend-step .form-pay input, .sacend-step .form-pay select, .bzaraty #update .input-text input, .bzaraty #add .input-text input, .login-header .login-itms .login-info input, .forget-itms .forget-info input, .signup-itms .signup-info input, .size input, .chose .chose-box .input-price, .payment-methode .form-pay input, .payment-methode .form-pay select, .edit-user .input-text input[type="text"], .edit-user .select-text select, .edit-user .change-pass input, .windo-edit .form-edit input, .sec6 form input:focus, .sec7 input:focus, .size input:focus, .sec7 textarea, .map .contact-form form textarea, .bzaraty #update textarea, .bzaraty #add textarea, .edit-user .box-textarea textarea, .sec7 textarea:focus, .sec3 .box-info,
+.sec1 .box-info, .sec2 .box-info, .bazarat .bazarat-content .box-info2, .bazarOwners .bazarat-own .box-owners, .ounersProfile .profile-owners, .navbar-light .navbar-nav .nav-link:after, .my-dropdown:after, .loadMOreButton, .loadMOreButton:active, .sec4 .box-sec4, .sec5 img, .sec5 img:hover, .footer .socail ul li i, .bzaraty .my-bazraty .bzaraty-info .info2 {
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+}
+
+.header-box .new-bazar, .sec6 form .btn, .sec7 .btn, .map .contact-form form .btn, .Bazar-Details .Details .box-Details .btn-show .btn, .first-step .steps .f-box-book a, .sacend-step .form-pay a, .bzaraty #update .btn-box .btn, .bzaraty #add .btn-box .btn, .login-header .login-itms .login-info .btn-login, .forget-itms .forget-info .btn-forget, .signup-itms .signup-info .btn-signup, .btn-continue, .chose .btn-cont, .payment-methode .form-pay a, .ounersProfile .profile a, .err404 a, .edit-user .box-btn .btn, .edit-user .change-pass .btn, .bazaraty-2-items .box-bazraty-one .btn, .windo-edit .form-edit .btn-form-edit .btn:first-of-type {
+  width: 220px;
+  height: 50px !important;
+  height: 46px;
+  font-size: 24px;
+  color: #F0F8E9;
+  background-color: #67B930;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+  -o-box-shadow: rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.loadMOreButton, .sec3 .btn,
+.sec1 .btn, .sec2 .btn, .first-step .steps .chose-image .btn, .payment-stat .stat .btn-stat a, .bzaraty .my-share .share-info .btn, .bzaraty .all-bazrat .right-side .btn,
+.bzaraty .all-bazrat .left-side .btn, .payment-stat2 .payment-stat-info .btn, .windo-edit .form-edit .btn-form-edit .btn:last-of-type, .bazaraty-content .btn {
+  width: 220px;
+  height: 60px !important;
+  background-color: #fff;
+  border: 2px solid 2px solid #e4e1e1;
+  color: #67B930;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.loadMOreButton:active, .sec3 .btn:active,
+.sec1 .btn:active, .sec2 .btn:active, .first-step .steps .chose-image .btn:active, .payment-stat .stat .btn-stat a:active, .bzaraty .my-share .share-info .btn:active, .bzaraty .all-bazrat .right-side .btn:active,
+.bzaraty .all-bazrat .left-side .btn:active, .payment-stat2 .payment-stat-info .btn:active, .windo-edit .form-edit .btn-form-edit .btn:active:last-of-type, .bazaraty-content .btn:active {
+  background-color: rgba(255, 255, 255, 0.19);
+  border: 2px solid #e4e1e1;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+.sec3 h2,
+.sec1 h2, .sec2 h2, .sec4 h2, .sec5 h2 {
+  font-size: 40px;
+}
+
+.sec3 h2:after,
+.sec1 h2:after, .sec2 h2:after, .sec4 h2:after, .sec5 h2:after {
+  content: '';
+  display: block;
+  background-color: #67B930;
+  width: 50px;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.footer .area h4:after,
+.footer .contact h4:after,
+.footer .menu h4:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 25px;
+  height: 2px;
+  background-color: #67B930;
+}
+
+.sec6 form input, .sec7 input, .map .contact-form form input, .bazarat .bazrat-search .input-style input, .bazarat .bazrat-search .dropdown .date, .first-step .steps .f-box-book input, .first-step .steps select, .sacend-step .form-pay input, .sacend-step .form-pay select, .bzaraty #update .input-text input, .bzaraty #add .input-text input, .login-header .login-itms .login-info input, .forget-itms .forget-info input, .signup-itms .signup-info input, .size input, .chose .chose-box .input-price, .payment-methode .form-pay input, .payment-methode .form-pay select, .edit-user .input-text input[type="text"], .edit-user .select-text select, .edit-user .change-pass input, .windo-edit .form-edit input {
+  height: 50px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0px solid rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  text-indent: 20px;
+}
+
+.sec6 form input:focus, .sec7 input:focus, .map .contact-form form input:focus, .bazarat .bazrat-search .input-style input:focus, .bazarat .bazrat-search .dropdown .date:focus, .first-step .steps .f-box-book input:focus, .first-step .steps select:focus, .sacend-step .form-pay input:focus, .sacend-step .form-pay select:focus, .bzaraty #update .input-text input:focus, .bzaraty #add .input-text input:focus, .login-header .login-itms .login-info input:focus, .forget-itms .forget-info input:focus, .signup-itms .signup-info input:focus, .size input:focus, .chose .chose-box .input-price:focus, .payment-methode .form-pay input:focus, .payment-methode .form-pay select:focus, .edit-user .input-text input:focus[type="text"], .edit-user .select-text select:focus, .edit-user .change-pass input:focus, .windo-edit .form-edit input:focus {
+  color: #333333;
+  font-size: 22px;
+}
+
+.sec7 textarea, .map .contact-form form textarea, .bzaraty #update textarea, .bzaraty #add textarea, .edit-user .box-textarea textarea {
+  resize: none;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0px solid rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  text-indent: 20px;
+  padding-top: 20px;
+}
+
+.sec7 textarea:focus, .map .contact-form form textarea:focus, .bzaraty #update textarea:focus, .bzaraty #add textarea:focus, .edit-user .box-textarea textarea:focus {
+  color: #333333;
+  font-size: 22px;
+}
+
+.sec3 .box-info,
+.sec1 .box-info, .sec2 .box-info, .bazarat .bazarat-content .box-info2, .bazarOwners .bazarat-own .box-owners, .ounersProfile .profile-owners {
+  width: 255px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sec3 .box-info:hover,
+.sec1 .box-info:hover, .sec2 .box-info:hover, .bazarat .bazarat-content .box-info2:hover, .bazarOwners .bazarat-own .box-owners:hover, .ounersProfile .profile-owners:hover {
+  -webkit-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+  -o-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+  -ms-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+}
+
+.sec3 .box-info img, .sec1 .box-info img, .sec2 .box-info img, .bazarat .bazarat-content .box-info2 img, .bazarOwners .bazarat-own .box-owners img, .ounersProfile .profile-owners img {
+  border-radius: 10px 10px 0 0;
+  height: 301px;
+  width: 100%;
+}
+
+.sec3 .box-info .first, .sec1 .box-info .first, .sec2 .box-info .first, .bazarat .bazarat-content .box-info2 .first, .bazarOwners .bazarat-own .box-owners .first, .ounersProfile .profile-owners .first {
+  display: block;
+  font-size: 25px;
+  width: 100%;
+  height: 96px;
+  overflow: hidden;
+  color: #1A1A1A;
+  padding: 10px 0 10px 0;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #eee;
+}
+
+.sec3 .box-info .date span, .sec1 .box-info .date span, .sec2 .box-info .date span, .bazarat .bazarat-content .box-info2 .date span, .bazarOwners .bazarat-own .box-owners .date span, .ounersProfile .profile-owners .date span {
+  display: block;
+  width: 100%;
+  color: #1A1A1A;
+  padding: 10px 0 10px 0;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #eee;
+  border-radius: 0 0 10px 10px;
+  color: #999999;
+}
+
+.Bazar-Details .Details .Details-info .info2, .bzaraty .my-bazraty .bzaraty-info .info2 {
+  height: 84px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.16);
+}
+
+.Bazar-Details .Details .Details-info .info2 img, .bzaraty .my-bazraty .bzaraty-info .info2 img {
+  float: right;
+  padding-left: 10px;
+}
+
+.Bazar-Details .Details .Details-info .info2 p, .bzaraty .my-bazraty .bzaraty-info .info2 p {
+  padding-top: 10px;
+  color: #1A1A1A;
+  font-size: 17px;
+}
+
+.Bazar-Details .Details .Details-info .info2 span, .bzaraty .my-bazraty .bzaraty-info .info2 span {
+  color: #999999;
+  font-size: 12px;
+}
+
+.first-step .steps .box-steps span, .sacend-step .box-steps span, .payment-stat .box-steps span, .chose .steps .box-steps span, .payment-methode .steps .box-steps span, .payment-stat2 .steps .box-steps span {
+  display: block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F0F8E9;
+  color: #67B930;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.bzaraty #delete, .bzaraty #update, .bzaraty #add {
+  -webkit-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.21);
+  -o-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.21);
+  -ms-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.21);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+  position: absolute;
+  background-color: #fff;
+  top: 200px;
+  right: 25%;
+  left: 25%;
+}
+
+.header-box .new-bazar, .login-header .login-itms .login-info, .login-header .login-itms .login-info .btn-login, .forget-itms .forget-info, .forget-itms .forget-info .btn-forget, .signup-itms .signup-info, .signup-itms .signup-info .btn-signup, .size, .chose .box-detils, .chose .btn-cont, .edit-user .box-btn .btn, .edit-user .change-pass .btn, .bazaraty-2-items .box-bazraty-one .btn, .windo-edit .form-edit .btn-form-edit .btn, .bazaraty-content .box-chose, .bazaraty-content .bazraty-detils {
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+}
+
+.header-box .new-bazar:active, .login-header .login-itms .login-info .btn-login:active, .forget-itms .forget-info .btn-forget:active, .signup-itms .signup-info .btn-signup:active, .chose .btn-cont:active, .edit-user .box-btn .btn:active, .edit-user .change-pass .btn:active, .bazaraty-2-items .box-bazraty-one .btn:active, .windo-edit .form-edit .btn-form-edit .btn:active {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+.chose .chose-box {
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+  min-height: 110px;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.navbar .nav-item {
+  padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #111111;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: 10px;
+  background-color: #67B930;
+  width: 0%;
+  height: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+  width: 100%;
+}
+
+.my-dropdown:after {
+  content: '';
+  display: inline-block !important;
+  position: relative;
+  top: 4px !important;
+  background-color: transparent !important;
+  width: 0% !important;
+  height: 3px;
+}
+
+.my-dropdown:hover:after {
+  width: 0% !important;
+}
+
+.dropdown-item {
+  margin-bottom: 12px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #111111;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:after,
+.navbar-light .navbar-nav .nav-link.active:after,
+.navbar-light .navbar-nav .nav-link.show:after,
+.navbar-light .navbar-nav .show > .nav-link:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: 10px;
+  background-color: #67B930;
+  width: 100%;
+  height: 3px;
+}
+
+/*Navbar Media */
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    margin-top: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 0;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-light .navbar-nav .nav-link:hover:after {
+    width: 15%;
+  }
+  .navbar-light .navbar-nav .active > .nav-link::after,
+  .navbar-light .navbar-nav .nav-link.active::after,
+  .navbar-light .navbar-nav .nav-link.show::after,
+  .navbar-light .navbar-nav .show > .nav-link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 15%;
+    height: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    margin-top: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 0;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-light .navbar-nav .nav-link:hover:after {
+    width: 15%;
+  }
+  .navbar-light .navbar-nav .active > .nav-link::after,
+  .navbar-light .navbar-nav .nav-link.active::after,
+  .navbar-light .navbar-nav .nav-link.show::after,
+  .navbar-light .navbar-nav .show > .nav-link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 15%;
+    height: 3px;
+  }
+}
+
+/*Navbar Media sm and xs*/
+@media (min-width: 300px) and (max-width: 767px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-nav {
+    margin-top: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 0;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-light .navbar-nav .nav-link:hover:after {
+    width: 15%;
+  }
+  .navbar-light .navbar-nav .active > .nav-link::after,
+  .navbar-light .navbar-nav .nav-link.active::after,
+  .navbar-light .navbar-nav .nav-link.show::after,
+  .navbar-light .navbar-nav .show > .nav-link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 10px;
+    background-color: #67B930;
+    width: 15%;
+    height: 3px;
+  }
+}
+
+/*  
+Theme Name : BAZARAT 
+Theme Coder : Ali Mahmoud
+Strat Date : 3/7/2018
+*/
+/* Import font */
+@font-face {
+  font-family: 'DroidKufi';
+  src: url("../fonts/DroidKufi-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: DroidKufi;
+  direction: rtl;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.loadMOreButton {
+  width: 100%;
+  -webkit-box-shadow: 2px 12px 9px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 12px 9px rgba(0, 0, 0, 0.16);
+  border: none;
+}
+
+.loadMOreButton:active {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+.modal-content {
+  margin-top: 60%;
+  text-align: right;
+}
+
+.ajax-load {
+  background-color: rgba(103, 185, 48, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+header {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  height: 100vh;
+}
+
+header .carousel-item-next,
+header .carousel-item-prev,
+header .carousel-item.active {
+  padding-top: 267px;
+}
+
+header .carousel-indicators {
+  bottom: -136px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: #E7F4DF;
+}
+
+.carousel-indicators .active {
+  background-color: #67B930;
+}
+
+.header-box h1 {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.header-box p {
+  color: #111111;
+}
+
+.header-box .new-bazar {
+  margin-top: 51px;
+}
+
+/* Stert Sec 1 and 3*/
+.sec3,
+.sec1 {
+  margin-top: -57px;
+}
+
+.sec3 h2,
+.sec1 h2 {
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.sec3 a,
+.sec1 a {
+  text-decoration: none;
+}
+
+.sec3 a:hover,
+.sec1 a:hover {
+  text-decoration: none;
+}
+
+.sec3 .no-js .owl-carousel,
+.sec3 .owl-carousel.owl-loaded,
+.sec1 .no-js .owl-carousel,
+.sec1 .owl-carousel.owl-loaded {
+  direction: ltr;
+  text-align: center;
+}
+
+.sec3 .owl-carousel .owl-nav button.owl-next,
+.sec3 .owl-carousel .owl-nav button.owl-prev,
+.sec3 .owl-carousel button.owl-dot,
+.sec1 .owl-carousel .owl-nav button.owl-next,
+.sec1 .owl-carousel .owl-nav button.owl-prev,
+.sec1 .owl-carousel button.owl-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: #E7F4DF;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sec3 .owl-carousel button.active,
+.sec1 .owl-carousel button.active {
+  background-color: #67B930;
+}
+
+.sec3 {
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+/* End Sec1 and 3*/
+/* Stert Sec 2*/
+.sec2 {
+  background-color: #F0F8E9;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.sec2 h2 {
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.sec2 a {
+  text-decoration: none;
+}
+
+.sec2 a:hover {
+  text-decoration: none;
+}
+
+.sec2 .no-js .owl-carousel,
+.sec2 .owl-carousel.owl-loaded {
+  direction: ltr;
+  text-align: center;
+}
+
+.sec2 .owl-carousel .owl-nav button.owl-next,
+.sec2 .owl-carousel .owl-nav button.owl-prev,
+.sec2 .owl-carousel button.owl-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background-color: #E7F4DF;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sec2 .owl-carousel button.active {
+  background-color: #67B930;
+}
+
+.sec2 .box-info {
+  width: 255px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sec2 .box-info:hover {
+  -webkit-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+}
+
+.sec2 .box-info img {
+  border-radius: 10px 10px 0 0;
+}
+
+.sec2 .box-info .first {
+  display: block;
+  font-size: 25px;
+  width: 100%;
+  color: #1A1A1A;
+  padding: 10px 0 10px 0;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #eee;
+}
+
+.sec2 .box-info .date .span-last-type {
+  color: red;
+}
+
+.sec2 .btn {
+  margin-bottom: 50px;
+}
+
+/* End Sec2 */
+/* Start sec 4*/
+.sec4 {
+  background-color: #F7FBF4;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sec4 h2 {
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.sec4 .box-sec4 {
+  padding: 15px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.21);
+  background-color: transparent;
+}
+
+.sec4 .box-sec4:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+}
+
+.sec4 .box-sec4 .img-cir {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.sec4 .box-sec4 .img-cir img {
+  margin-top: 33px;
+}
+
+.sec4 .box-sec4 .img-cir .mr {
+  margin-top: 55px;
+}
+
+.sec4 .box-sec4 h3 {
+  color: #111111;
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+}
+
+.sec4 .box-sec4 p {
+  color: #484848;
+  font-size: 22px;
+}
+
+/* End Sec 4 */
+/*Strat Sec 5 */
+.sec5 {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sec5 h2 {
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.sec5 img {
+  margin-bottom: 80px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.sec5 img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+/* End Sec 5 */
+/*Start sec 6 */
+.sec6 {
+  background-color: #F7FBF4;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sec6 h2 {
+  font-size: 30px;
+  color: #111111;
+}
+
+.sec6 form {
+  margin-top: 30px;
+}
+
+.sec6 form input {
+  width: 370px;
+}
+
+.sec6 form .btn {
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+/*End sec 6*/
+/*Strat sec7 */
+.sec7 {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sec7 h2 {
+  font-size: 30px;
+  color: #111111;
+  margin-bottom: 50px;
+}
+
+.sec7 iframe {
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.sec7 textarea {
+  height: 330px;
+}
+
+.sec7 .btn {
+  float: left;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/*end sec7*/
+/*Strat footer */
+.footer {
+  background: url(../Images/Art_buttom.png) no-repeat bottom right;
+  padding-top: 50px;
+}
+
+.footer .line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #CCCCCC;
+  margin-bottom: 70px;
+}
+
+.footer h3 {
+  color: #333333;
+  font-size: 24px;
+  margin-top: 45px;
+  text-align: right;
+}
+
+.footer .socail ul li {
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+
+.footer .socail ul li i {
+  color: #CED5D8;
+}
+
+.footer .socail ul li i:hover {
+  color: #67B930;
+}
+
+.footer .area,
+.footer .contact,
+.footer .menu {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.footer .area h4,
+.footer .contact h4,
+.footer .menu h4 {
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.footer .area ul,
+.footer .contact ul,
+.footer .menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer .area ul li,
+.footer .contact ul li,
+.footer .menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer .area ul li a,
+.footer .contact ul li a,
+.footer .menu ul li a {
+  color: #484848;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer .contact ul li {
+  color: #484848;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer .contact ul li:first-child {
+  color: #67B930;
+}
+
+.footer .contact ul li:nth-child(2) {
+  color: #67B930;
+}
+
+/*end footer */
+/* Start Page conract */
+.map {
+  padding-top: 150px;
+}
+
+.map .contact-form {
+  margin-top: 60px;
+}
+
+.map .contact-form form input {
+  margin-bottom: 50px;
+}
+
+.map .contact-form form textarea {
+  height: 226px;
+}
+
+.map .contact-form form .btn {
+  margin-top: 20px;
+}
+
+/*End Page contact */
+/* Start Page BAzrat */
+.bazarat {
+  padding-top: 155px;
+}
+
+.bazarat h2 {
+  text-align: right;
+  color: 60px;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.bazarat .bazrat-search {
+  text-align: right;
+}
+
+.bazarat .bazrat-search .input-style {
+  position: relative;
+}
+
+.bazarat .bazrat-search .input-style i {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+  bottom: 0;
+  color: #484848;
+}
+
+.bazarat .bazrat-search .input-style input {
+  color: #484848;
+}
+
+.bazarat .bazrat-search h5 {
+  color: #67B930;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.bazarat .bazrat-search .dropdown a {
+  line-height: 40px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.bazarat .bazrat-search .dropdown .date {
+  margin-bottom: 15px;
+}
+
+.bazarat .bazrat-search .dropdown .btn {
+  height: 50px;
+  background-color: #fff;
+  color: #CCCCCC;
+  text-align: right;
+  border-radius: 10px;
+  border: 0px solid rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  text-indent: 2px;
+}
+
+.bazarat .bazrat-search .dropdown select {
+  -moz-appearance: none;
+  text-indent: 2px;
+  text-overflow: '';
+}
+
+.bazarat .bazrat-search .dropdown-toggle:after {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+}
+
+.bazarat .bazrat-search .dropdown-menu {
+  left: inherit !important;
+  right: 0;
+  text-align: right;
+}
+
+.bazarat .bazarat-content a {
+  text-decoration: none;
+}
+
+.bazarat .bazarat-content a:hover {
+  text-decoration: none;
+}
+
+.bazarat .bazarat-content .box-info2:hover {
+  text-decoration: none;
+}
+
+.bazarat .pagination2 {
+  direction: ltr;
+}
+
+.bazarat .pagination2 .page-link {
+  color: #67B930;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.bazarat .pagination2 .page-item.active .page-link {
+  color: #fff;
+  background-color: #67B930;
+  border-color: #67B930;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+/*End Page Bazrat*/
+/* Start page BazarDetails */
+.Bazar-Details {
+  padding-top: 106px;
+  text-align: right;
+}
+
+.Bazar-Details .Details {
+  height: 100vh;
+  overflow: scroll;
+  position: relative;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.Bazar-Details .Details .box1 {
+  background-color: #67B930;
+  padding: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.Bazar-Details .Details .box-Details ul li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Bazar-Details .Details .box-Details ul li:first-of-type {
+  margin-top: 20px;
+}
+
+.Bazar-Details .Details .box-Details ul .last-day {
+  color: #E62727;
+}
+
+.Bazar-Details .Details .box-Details .btn-show {
+  text-align: center;
+}
+
+.Bazar-Details .Details .Details-info {
+  margin-top: 50px;
+}
+
+.Bazar-Details .Details .Details-info a:hover {
+  text-decoration: none;
+}
+
+.Bazar-Details .vr {
+  height: 100vh;
+}
+
+.Bazar-Details .vr img {
+  width: 100%;
+  height: 100%;
+}
+
+.Bazar-Details .vr a-scene {
+  height: 100% !important;
+}
+
+.Bazar-Details .vr button {
+  position: absolute;
+}
+
+.Bazar-Details .vr .one,
+.Bazar-Details .vr .tow,
+.Bazar-Details .vr .three {
+  background-color: #cccccc80;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  border-radius: 10px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.Bazar-Details .vr .one {
+  left: 24px;
+  top: 24px;
+}
+
+.Bazar-Details .vr .tow {
+  top: 24px;
+  left: 170px;
+  opacity: 5;
+}
+
+.Bazar-Details .vr .three {
+  left: 24px;
+  bottom: 110px;
+  height: 50px;
+}
+
+/*End page BazarDetails.html */
+/*Star Page book bazear*/
+.first-step {
+  padding-top: 106px;
+  text-align: center;
+  background: url(../Images/Art_top.png) no-repeat left;
+}
+
+.first-step .steps {
+  margin-top: 50px;
+}
+
+.first-step .steps .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.first-step .steps .box-steps p {
+  font-size: 15px;
+  color: #333333;
+}
+
+.first-step .steps .box-steps .f-box-book .select-img {
+  width: 20px;
+  color: red;
+  overflow: hidden;
+}
+
+.first-step .steps .box-steps .f-box-book .select-img:focus {
+  font-size: 0;
+}
+
+.first-step .steps .chose-image {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.first-step .steps .chose-image .file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.first-step .steps .chose-image .file-upload__label {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.first-step .steps .chose-image .file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.first-step .steps .chose-image h2 {
+  padding-top: 8%;
+}
+
+.first-step .steps .chose-image .btn {
+  margin-top: 27%;
+  line-height: 45px;
+  height: 160px;
+}
+
+.first-step .steps .title {
+  margin-top: 50px;
+  margin-bottom: 33px;
+}
+
+.first-step .steps .title p {
+  color: #333333;
+  font-size: 24px;
+}
+
+.first-step .steps .box-book .btn {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.first-step .steps .box-book .btn:hover, .first-step .steps .box-book .btn:active {
+  background-color: #f2f1f1;
+}
+
+.first-step .steps .box-sub {
+  height: 320px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+  margin-top: 16px;
+  border-radius: 10px;
+  margin-bottom: 37px;
+  padding: 20px;
+}
+
+.first-step .steps .f-box-book input {
+  margin-bottom: 37px;
+}
+
+.first-step .steps .f-box-book a {
+  border-radius: 10px;
+}
+
+.first-step .area-book {
+  width: 40px;
+  height: 40px;
+  background-color: #cff;
+  border: 2px solid #000;
+  margin-top: 10px;
+  border-radius: 100%;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.first-step .area-book label {
+  cursor: pointer;
+}
+
+.first-step .area-book input {
+  display: none;
+}
+
+.first-step .active {
+  background-color: #f3bb15;
+}
+
+.first-step .booked-area {
+  background-color: #f3bb15;
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+/*End Page Book bazar */
+/*Start page Payment */
+.sacend-step {
+  padding-top: 106px;
+  padding-bottom: 50px;
+  background: url(../Images/Art_top.png) no-repeat left;
+}
+
+.sacend-step .box-steps {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.sacend-step .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.sacend-step .box-steps p {
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 50px;
+}
+
+.sacend-step .form-pay {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+  background-color: #F7FBF4;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.sacend-step .form-pay .form-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+.sacend-step .form-pay .rido {
+  margin-right: 20px;
+}
+
+.sacend-step .form-pay .rido img {
+  margin-top: -24px;
+}
+
+.sacend-step .form-pay input {
+  margin-bottom: 30px;
+}
+
+.sacend-step .form-pay select {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.sacend-step .form-pay a {
+  border-radius: 10px;
+}
+
+.sacend-step .form-pay a:hover {
+  color: #fff;
+}
+
+.sacend-step .step-info p {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/*End Page payment */
+/* Start Page Payment stat */
+.payment-stat {
+  padding-top: 106px;
+  padding-bottom: 50px;
+  background: url(../Images/Art_top.png) no-repeat left;
+}
+
+.payment-stat .box-steps {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.payment-stat .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.payment-stat .stat-title {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  color: #333333;
+}
+
+.payment-stat .stat-title h5 {
+  font-size: 30px;
+}
+
+.payment-stat .stat-title p {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.payment-stat .stat {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  text-align: right;
+}
+
+.payment-stat .stat .stat-info {
+  margin-top: 49px;
+  margin-bottom: 49px;
+  margin-right: 49px;
+}
+
+.payment-stat .stat .stat-info p {
+  padding-bottom: 15px;
+  color: #333333;
+  font-size: 24px;
+}
+
+.payment-stat .stat .btn-stat {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* End PAge Payment stat */
+/* Start Page BAzraty */
+.bzaraty {
+  padding-top: 106px;
+}
+
+.bzaraty .bazraty-title {
+  padding-top: 17px;
+  padding-right: 24px;
+}
+
+.bzaraty .bazraty-title h2 {
+  color: #333333;
+  font-size: 24px;
+}
+
+.bzaraty .my-bazraty {
+  background-color: #eee;
+  height: 100vh;
+  -webkit-box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.16);
+  border-left: 3px solid #ccc;
+  text-align: right;
+}
+
+.bzaraty .my-bazraty .bzaraty-info {
+  margin-top: 50px;
+}
+
+.bzaraty .my-bazraty .bzaraty-info .info2 {
+  background-color: #fff;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.bzaraty .my-bazraty .bzaraty-info .info2:hover {
+  border: 3px solid #67B930;
+}
+
+.bzaraty .my-bazraty .bzaraty-info .active {
+  border: 3px solid #67B930;
+}
+
+.bzaraty .my-share {
+  background-color: #eee;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.bzaraty .my-share h2 {
+  margin-bottom: 50px;
+}
+
+.bzaraty .my-share .share-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bzaraty .my-share .share-info .btn {
+  position: relative;
+  height: 65px !important;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.bzaraty .my-share .share-info .btn .first-btn {
+  display: inline;
+  float: right;
+}
+
+.bzaraty .my-share .share-info .btn .secand-btn {
+  display: inline;
+  float: left;
+}
+
+.bzaraty .my-share .share-info .btn:hover {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.bzaraty .my-share .share-info .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.bzaraty .all-bazrat .right-side,
+.bzaraty .all-bazrat .left-side {
+  margin-top: 30px;
+  margin-top: 30px;
+}
+
+.bzaraty .all-bazrat .right-side .btn,
+.bzaraty .all-bazrat .left-side .btn {
+  width: 124px;
+  height: 124px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.bzaraty .all-bazrat .right-side .btn {
+  margin-right: 24px;
+}
+
+.bzaraty .all-bazrat .left-side .btn {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.bzaraty .bazaraty-itms {
+  padding-top: 105px;
+}
+
+.bzaraty .bazaraty-itms .box-itms {
+  margin-bottom: 27px;
+}
+
+.bzaraty .bazaraty-itms .box-itms .imags img {
+  width: 184px;
+  height: 184px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.16);
+}
+
+.bzaraty .bazaraty-itms .box-itms span:first-of-type {
+  color: #333333;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.bzaraty #delete h3 {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.bzaraty #delete .btn-box {
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.bzaraty #delete .btn-box .btn {
+  width: 190px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  margin-bottom: 15px;
+}
+
+.bzaraty #update {
+  background-color: #f7fbf4;
+}
+
+.bzaraty #update i {
+  background-color: #fff;
+  padding: 10px;
+  color: #333333;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+.bzaraty #update h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #333333;
+  font-size: 30px;
+}
+
+.bzaraty #update .file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.bzaraty #update .file-upload__label {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bzaraty #update .file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.bzaraty #update .btn-box {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.bzaraty #update .btn-box .btn {
+  border-radius: 10px;
+}
+
+.bzaraty #update .input-text {
+  margin-top: 10px;
+}
+
+.bzaraty #update .input-text input {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+  width: 65%;
+}
+
+.bzaraty #update textarea {
+  resize: none;
+  height: 150px;
+  width: inherit;
+}
+
+.bzaraty #add {
+  background-color: #f7fbf4;
+}
+
+.bzaraty #add i {
+  background-color: #fff;
+  padding: 10px;
+  color: #333333;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+.bzaraty #add h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #333333;
+  font-size: 30px;
+}
+
+.bzaraty #add .file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.bzaraty #add .file-upload__label {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bzaraty #add .file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.bzaraty #add .btn-box {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.bzaraty #add .btn-box .btn {
+  border-radius: 10px;
+}
+
+.bzaraty #add .input-text {
+  margin-top: 10px;
+}
+
+.bzaraty #add .input-text input {
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+  width: 65%;
+}
+
+.bzaraty #add textarea {
+  resize: none;
+  height: 150px;
+  width: inherit;
+}
+
+/* End Page BAzraty*/
+/*Start page login */
+.login-header {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  min-height: 100vh;
+}
+
+.login-header .login-itms {
+  padding-top: 155px;
+}
+
+.login-header .login-itms h3 {
+  font-size: 50px;
+  color: #333333;
+}
+
+.login-header .login-itms .login-info {
+  margin-top: 52px;
+  background-color: #F7FBF4;
+  border-radius: 10px;
+  min-height: 400px;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.login-header .login-itms .login-info {
+  padding-top: 60px;
+}
+
+.login-header .login-itms .login-info input {
+  margin-bottom: 30px;
+}
+
+.login-header .login-itms .login-info input:last-of-type {
+  margin-left: 15px;
+  border: 3px solid #000;
+}
+
+.login-header .login-itms .login-info label {
+  position: relative;
+  top: -19px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.login-header .login-itms .login-info .join {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-header .login-itms .login-info .join a {
+  color: #333333;
+  font-size: 20px;
+}
+
+.login-header .login-itms .login-info .join a:hover {
+  text-decoration: none;
+}
+
+/*End page login */
+/*Start forget password */
+.forget-itms {
+  padding-top: 155px;
+}
+
+.forget-itms h3 {
+  font-size: 50px;
+  color: #333333;
+}
+
+.forget-itms .forget-info {
+  margin-top: 52px;
+  background-color: #F7FBF4;
+  border-radius: 10px;
+  min-height: 400px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 60px;
+}
+
+.forget-itms .forget-info p {
+  color: #333333;
+  font-size: 30px;
+  -webkit-margin-after: 46px;
+          margin-block-end: 46px;
+}
+
+.forget-itms .forget-info input {
+  margin-bottom: 30px;
+}
+
+.forget-itms .forget-info .btn-forget {
+  margin-bottom: 30px;
+}
+
+.forget-itms .forget-info .join-forget a {
+  padding-bottom: 30px;
+  color: #333333;
+}
+
+.forget-itms .forget-info .join-forget a:hover {
+  text-decoration: none;
+}
+
+/*End Password */
+/*Start Page signup */
+.signup-itms {
+  padding-top: 155px;
+}
+
+.signup-itms h3 {
+  font-size: 50px;
+  color: #333333;
+}
+
+.signup-itms .signup-info {
+  margin-top: 52px;
+  margin-bottom: 52px;
+  background-color: #F7FBF4;
+  border-radius: 10px;
+  min-height: 400px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 60px;
+}
+
+.signup-itms .signup-info input {
+  margin-bottom: 30px;
+}
+
+.signup-itms .signup-info .box-check input[type="radio"] {
+  width: 30%;
+}
+
+.signup-itms .signup-info .box-check label {
+  color: #333333;
+  font-size: 24px;
+  position: relative;
+  top: -15px;
+  right: -40px;
+}
+
+.signup-itms .signup-info .join-signup {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.signup-itms .signup-info .join-signup a {
+  color: #333333;
+  font-size: 20px;
+}
+
+.signup-itms .signup-info .join-signup a:hover {
+  text-decoration: none;
+}
+
+/*End page signup*/
+/*Start page new bazar */
+.size {
+  height: 298px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.size img {
+  padding-top: 35px;
+}
+
+.size input {
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 48%;
+  margin: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/*End Page New bazar */
+/*Start Page chose bazar */
+.chose {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.chose .steps {
+  padding-top: 156px;
+}
+
+.chose .steps .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.chose .steps .box-steps p {
+  font-size: 15px;
+  color: #333333;
+}
+
+.chose .chose-title {
+  color: #333333;
+  font-size: 24px;
+  margin-top: 60px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+
+.chose .chose-box {
+  height: 345px;
+  border-radius: 10px;
+  padding-top: 1px;
+  overflow: hidden;
+  position: relative;
+}
+
+.chose .chose-box .input-price {
+  border: 1px solid #eee;
+}
+
+.chose .chose-box .box2 {
+  width: 70%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: dashed 3px #eb8e91;
+  text-align: center;
+}
+
+.chose .chose-box p {
+  padding-top: 50px;
+}
+
+.chose .chose-box .countar {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 11px;
+}
+
+.chose .chose-box .countar .btn {
+  width: 53px;
+}
+
+.chose .chose-box .countar .btn:first-of-type {
+  background-color: #FF9292;
+  color: #fff;
+}
+
+.chose .chose-box .countar .btn:last-of-type {
+  background-color: #F7D35E;
+  color: #fff;
+}
+
+.chose .chose-box .countar input {
+  width: 137px;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.chose .box-detils {
+  margin-top: 30px;
+  padding: 20px 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.chose .box-detils p {
+  color: #333333;
+  font-size: 20px;
+}
+
+.chose .box-detils p input {
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: none;
+}
+
+.chose .btn-cont {
+  margin-top: 60px;
+}
+
+/*End Page Chose bazar */
+/* Start Page payment MEthode */
+.payment-methode {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.payment-methode .steps {
+  padding-top: 156px;
+  margin-bottom: 51px;
+}
+
+.payment-methode .steps .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.payment-methode .form-pay {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+  background-color: #F7FBF4;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-methode .form-pay .form-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+.payment-methode .form-pay .rido {
+  margin-right: 20px;
+}
+
+.payment-methode .form-pay .rido img {
+  margin-top: -24px;
+}
+
+.payment-methode .form-pay input {
+  margin-bottom: 30px;
+}
+
+.payment-methode .form-pay select {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.payment-methode .form-pay a {
+  border-radius: 10px;
+}
+
+.payment-methode .form-pay a:hover {
+  color: #fff;
+}
+
+.payment-methode .step-info p {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/*End page payment Methode*/
+/* Start page payment-stat2 */
+.payment-stat2 {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.payment-stat2 .steps {
+  padding-top: 156px;
+  margin-bottom: 51px;
+}
+
+.payment-stat2 .steps .box-steps .active {
+  background-color: #67B930;
+  color: #fff;
+}
+
+.payment-stat2 .payment-stat-info {
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+          box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+}
+
+.payment-stat2 .payment-stat-info p {
+  margin-top: 30px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.payment-stat2 .payment-stat-info .btn {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+.payment-stat2 .payment-stat-title {
+  margin-top: 124px;
+}
+
+.payment-stat2 .payment-stat-title h2 {
+  font-size: 30px;
+  color: #333333;
+}
+
+.payment-stat2 .payment-stat-title p {
+  font-size: 24px;
+  color: #333333;
+}
+
+/*End page payment-stat2 */
+/*Start page Bazar Owners */
+.bazarOwners {
+  padding-top: 156px;
+}
+
+.bazarOwners h3 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.bazarOwners .bazarat-own {
+  margin-bottom: 50px;
+}
+
+.bazarOwners .bazarat-own .box-owners {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.bazarOwners .bazarat-own .box-owners:hover {
+  text-decoration: none;
+}
+
+.bazarOwners .bazarat-own .box-owners .span-last-type {
+  color: #67B930 !important;
+  font-size: 24px !important;
+}
+
+/*End page Bazar Owners */
+/*Start page owners profil */
+.ounersProfile {
+  padding-top: 156px;
+}
+
+.ounersProfile .profile {
+  margin-top: -150px;
+  background-color: #F5F5F5;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.ounersProfile .profile .profile-content {
+  padding-top: calc(156px + 156px - 100px);
+}
+
+.ounersProfile .profile .profile-content .img-profile {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #eee;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.ounersProfile .profile h2 {
+  color: #333333;
+  font-size: 21px;
+}
+
+.ounersProfile .profile h3 {
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.ounersProfile .profile p {
+  color: #484848;
+  font-size: 17px;
+}
+
+.ounersProfile .profile a {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ounersProfile .head-owner {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.ounersProfile .profile-owners {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.ounersProfile .profile-owners:hover {
+  text-decoration: none;
+}
+
+.ounersProfile .profile-owners .span-last-type {
+  display: block;
+  width: 100%;
+  color: #333333;
+  padding: 10px 0 10px 0;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #eee;
+  border-radius: 0 0 10px 10px;
+}
+
+/*End page owners profil */
+/*Start page 404 */
+.err404 {
+  background: url(../Images/Art_top.png) no-repeat;
+  background-position: left;
+  padding-top: 156px;
+  height: 100vh;
+}
+
+.err404 h1 {
+  font-size: 150px;
+  color: #333333;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.err404 h2 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.err404 a {
+  color: #fff;
+  text-decoration: none;
+  border: 15px !important;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/*end page 404*/
+/*Start Page My Messages */
+.my-messages {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.my-messages .user-chat {
+  padding-top: 110px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.my-messages .user-chat .user-box-chat {
+  background-color: #F0F8E9;
+  padding: 15px 15px 5px 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.my-messages .user-chat .user-box-chat h3 {
+  margin-top: 15px;
+  color: #333333;
+  font-size: 17px;
+}
+
+.my-messages .user-chat .user-box-chat p {
+  margin-top: 15px;
+}
+
+.my-messages .user-chat .user-box-chat span {
+  color: #484848;
+  text-align: left;
+  display: block;
+}
+
+.my-messages .user-chat .un-read {
+  background-color: #fff;
+}
+
+.my-messages .message-profile {
+  padding-top: 110px;
+  background-color: #F5F5F5;
+}
+
+.my-messages .message-profile .profile-imge {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 30px auto;
+  padding-top: 60px;
+}
+
+.my-messages .message-profile h2 {
+  margin-top: 90px;
+  color: #333333;
+  font-size: 21px;
+}
+
+.my-messages .message-profile h3 {
+  color: #333333;
+  font-size: 21px;
+}
+
+.my-messages .message-profile p {
+  margin-top: 20px;
+  color: #484848;
+  padding: 0 15px 0 15px;
+}
+
+.my-messages .message-profile a {
+  margin-top: 15px;
+  color: #67B930;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.my-messages .message-profile a:hover {
+  text-decoration: none;
+}
+
+.my-messages .content-chat {
+  padding-top: 110px;
+  min-height: 100vh;
+  overflow: scroll;
+  position: relative;
+}
+
+.my-messages .content-chat .chat-send,
+.my-messages .content-chat .chat-received {
+  width: 80%;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #F7F7F7;
+}
+
+.my-messages .content-chat .chat-send {
+  float: left;
+  background-color: #F7FBF4;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.my-messages .content-chat .chat-received {
+  float: right;
+  background-color: #F7F7F7;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.my-messages .content-chat .chat-p {
+  font-size: 14px;
+}
+
+.my-messages .content-chat .span-chat {
+  font-size: 12px;
+  display: block;
+}
+
+.my-messages .content-chat .box-send {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #ddd;
+  z-index: 99;
+}
+
+.my-messages .content-chat .box-send textarea {
+  width: 67%;
+  height: 70px;
+  resize: none;
+  float: right;
+  border: 1px solid #F7F7F7;
+}
+
+.my-messages .content-chat .box-send .btn {
+  background-color: #67B930;
+  float: right;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+  color: #fff;
+}
+
+/*End page My Messages*/
+/*Start Page Edit User */
+.edit-user {
+  padding-top: 156px;
+  background-color: #F7FBF4;
+  height: 100vh;
+}
+
+.edit-user .box-head-edit {
+  margin-bottom: 50px;
+}
+
+.edit-user .box-head-edit h2 {
+  font-size: 24px;
+  color: #CCCCCC;
+  cursor: pointer;
+}
+
+.edit-user .box-head-edit .active {
+  color: #67B930;
+}
+
+.edit-user .file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.edit-user .file-upload__label {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.edit-user .file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.edit-user .input-text {
+  margin-top: 20px;
+}
+
+.edit-user .input-text input[type="text"] {
+  width: 264px;
+}
+
+.edit-user .select-text {
+  margin-top: 25px;
+}
+
+.edit-user .select-text select {
+  width: 266px;
+}
+
+.edit-user .box-textarea {
+  margin-top: 25px;
+}
+
+.edit-user .box-btn {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.edit-user .change-pass .btn {
+  margin-top: 20px;
+}
+
+.edit-user .fede-toggle-one,
+.edit-user .fade-togle-tow {
+  display: none;
+}
+
+/*ENd PAge Edit USer*/
+/* Start PAge bazaraty */
+.bazaraty-2-items .box-bazraty-one {
+  background-color: #F0F8E9;
+  height: 100vh;
+  padding-top: 165px;
+  border: 1px solid #eee;
+}
+
+.bazaraty-2-items .box-bazraty-one .bazraty-title h2 {
+  font-size: 17px;
+  margin-right: 25px;
+}
+
+.bazaraty-2-items .box-bazraty-one .bzaraty-info {
+  background-color: #fff;
+  margin-left: 5px;
+  margin-right: 17px;
+  margin-top: 25px;
+}
+
+.bazaraty-2-items .box-bazraty-one .bzaraty-info .info2 {
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bazaraty-2-items .box-bazraty-one .bzaraty-info .info2 img {
+  width: 60px;
+  height: 70px;
+  float: right;
+}
+
+.bazaraty-2-items .box-bazraty-one .bzaraty-info .info2 p {
+  margin-right: 65px;
+  font-size: 17px;
+  color: #333333;
+}
+
+.bazaraty-2-items .box-bazraty-one .bzaraty-info .info2 span {
+  display: block;
+  margin-right: 66px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #484848;
+}
+
+.bazaraty-2-items .box-bazraty-one .active {
+  border: 2px solid #67B930;
+}
+
+.bazaraty-2-items .box-bazraty-one .btn {
+  width: 133px;
+}
+
+.bazaraty-2-items .bazarty-info {
+  margin-top: 20px;
+  padding-right: 15px;
+}
+
+.bazaraty-2-items .bazarty-info p {
+  color: #333333;
+  font-size: 17px;
+}
+
+.bazaraty-2-items .box-bazarty-tow {
+  background-color: red;
+  height: 100vh;
+  padding-top: 165px;
+  overflow: scroll;
+  padding-bottom: 50px;
+}
+
+.bazaraty-2-items .box-bazarty-tow .bazar-size {
+  width: 255px;
+  height: 298px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.bazaraty-2-items .box-bazarty-tow .bazar-size p {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
+
+.box-bazarty-tow {
+  background-color: #F5F5F5;
+  height: 100vh;
+  padding-top: 165px;
+  overflow: scroll;
+}
+
+.box-bazarty-tow .bazar-size {
+  width: 255px;
+  height: 298px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.box-bazarty-tow .bazar-size p {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
+
+.box-bazarty-tow .bazarty-info {
+  margin-top: 20px;
+  padding-right: 85px;
+}
+
+.box-bazarty-tow .bazarty-info p {
+  color: #333333;
+  font-size: 17px;
+}
+
+.box-bazarty-tow .edit-info {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box-bazarty-tow .edit-info i {
+  line-height: 50px;
+}
+
+.windo-edit {
+  width: 100%;
+  height: 100vh;
+  margin-top: -50px;
+  background-color: rgba(0, 0, 0, 0.16);
+  position: absolute;
+  z-index: 9999999999999;
+  display: none;
+}
+
+.windo-edit .form-edit {
+  margin-top: 25%;
+  background-color: #F7FBF4;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.windo-edit .form-edit .btn-form-edit {
+  margin-top: 52px;
+  margin-bottom: +30px;
+}
+
+.windo-edit .form-edit .btn-form-edit .btn {
+  width: 180px !important;
+}
+
+.windo-edit .form-edit .btn-form-edit .btn:last-of-type {
+  height: 50px !important;
+}
+
+.bazaraty-content {
+  padding-top: 156px;
+}
+
+.bazaraty-content .btn {
+  font-size: 21px;
+}
+
+.bazaraty-content .btn i {
+  margin-left: 5px;
+}
+
+.bazaraty-content .btn-cancel {
+  color: #E65A5A;
+}
+
+.bazaraty-content .btn-cancel,
+.bazaraty-content .btn-save {
+  display: none;
+}
+
+.bazaraty-content .box-chose {
+  height: 345px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bazaraty-content .box-chose .box-size-bazarty {
+  width: 70%;
+  height: 50%;
+  border: 1px dotted #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.bazaraty-content .box-chose p {
+  text-align: center;
+  font-size: 24px;
+  color: #CCCCCC;
+  margin-top: 30px;
+}
+
+.bazaraty-content .box-chose .box-value {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 11px;
+}
+
+.bazaraty-content .box-chose .box-value .btn {
+  width: 53px;
+  display: none;
+}
+
+.bazaraty-content .box-chose .box-value .btn:first-of-type {
+  background-color: #FF9292;
+  color: #fff;
+}
+
+.bazaraty-content .box-chose .box-value .btn:last-of-type {
+  background-color: #F7D35E;
+  color: #fff;
+}
+
+.bazaraty-content .box-chose .box-value input {
+  width: 106px;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.bazaraty-content .bazraty-detils {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bazaraty-content .bazraty-detils p {
+  padding-top: 11%;
+  color: #333333;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* ENd Page Bazarty */
+/*Start Media For Responsve*/
+@media (max-width: 1200px) {
+  .bzaraty .my-share,
+  .bzaraty .my-bazraty {
+    height: inherit;
+    padding-bottom: 50px;
+  }
+  .bzaraty #delete, .bzaraty #add,
+  .bzaraty #delete, .bzaraty #add {
+    left: 0;
+    right: 0;
+  }
+  .bzaraty #add textarea {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bzaraty #delete, .bzaraty #add,
+  .bzaraty #delete, .bzaraty #add {
+    left: 25%;
+    right: 25%;
+  }
+}
+
+/*Media sm Screen*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .bzaraty #delete {
+    text-align: center;
+  }
+  .bzaraty #delete, .bzaraty #add,
+  .bzaraty #delete, .bzaraty #add {
+    left: 0;
+    right: 0;
+  }
+  .bzaraty #add textarea {
+    margin-top: 15px;
+  }
+  /* Start Footer MEdia */
+  .sec7 form {
+    margin-top: 40px;
+  }
+  .footer h3 {
+    text-align: center;
+  }
+  .footer .area,
+  .footer .contact,
+  .footer .menu {
+    text-align: center;
+  }
+  .footer .area h4::after, .footer .contact h4::after, .footer .menu h4::after {
+    right: 47%;
+  }
+  .bzaraty .all-bazrat .right-side .btn {
+    float: right !important;
+    margin-bottom: 5px;
+  }
+}
+
+/*Media xs Screen*/
+@media (max-width: 576px) {
+  .bzaraty #delete {
+    text-align: center;
+  }
+  .bzaraty #delete, .bzaraty #add {
+    left: 0;
+    right: 0;
+  }
+  .bzaraty #add textarea {
+    margin-top: 15px;
+  }
+  /* Start Footer MEdia */
+  .sec7 form {
+    margin-top: 40px;
+  }
+  .footer h3 {
+    text-align: center;
+  }
+  .footer .area,
+  .footer .contact,
+  .footer .menu {
+    text-align: center;
+    color: red;
+  }
+  .footer .area h4::after, .footer .contact h4::after, .footer .menu h4::after {
+    right: 47%;
+  }
+  /* End Footer*/
+}
+
+/* Page Bazarat media*/
+/*# sourceMappingURL=style.css.map */

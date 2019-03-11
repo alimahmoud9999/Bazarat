@@ -1,0 +1,185 @@
+// Edit In Navbar
+.navbar {
+    // direction: rtl !important;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 15px 50px rgba(0, 0, 0, .10);
+    -moz-box-shadow: 0px 15px 50px rgba(0, 0, 0, .10);
+    -o-box-shadow: 0px 15px 50px rgba(0, 0, 0, .10);
+    -ms-box-shadow: 0px 15px 50px rgba(0, 0, 0, .10);
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, .10);
+    min-height: 110px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    .nav-item{
+        padding-left: 20px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $color2;
+    &:after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+        background-color: $main-color;
+        width: 0%;
+        height: 3px;
+        @extend %trans;
+    }
+    &:hover:after {
+        width: 100%;
+    }
+}
+.my-dropdown{
+    &:after {
+        content: '';
+        display: inline-block !important;
+        position: relative;
+        top: 4px !important;
+        background-color:transparent !important;
+        width: 0% !important;
+        height: 3px;
+        @extend %trans;
+    }
+    &:hover:after {
+        width: 0% !important;
+    }
+}
+.dropdown-item{
+    margin-bottom: 12px;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: $color2;
+    &:after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+        background-color: $main-color;
+        width: 100%;
+        height: 3px;
+    }
+}
+
+/*Navbar Media */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        &:after {
+            content: '';
+            display: block;
+            position: relative;
+            top: 10px;
+            background-color: #67B930;
+            width: 0;
+            height: 3px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &:hover:after {
+            width: 15%;
+        }
+    }
+    .navbar-light .navbar-nav .active>.nav-link::after,
+    .navbar-light .navbar-nav .nav-link.active::after,
+    .navbar-light .navbar-nav .nav-link.show::after,
+    .navbar-light .navbar-nav .show>.nav-link::after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+        background-color: #67B930;
+        width: 15%;
+        height: 3px;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 1000px){ 
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        &:after {
+            content: '';
+            display: block;
+            position: relative;
+            top: 10px;
+            background-color: #67B930;
+            width: 0;
+            height: 3px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &:hover:after {
+            width: 15%;
+        }
+    }
+    .navbar-light .navbar-nav .active>.nav-link::after,
+    .navbar-light .navbar-nav .nav-link.active::after,
+    .navbar-light .navbar-nav .nav-link.show::after,
+    .navbar-light .navbar-nav .show>.nav-link::after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+        background-color: #67B930;
+        width: 15%;
+        height: 3px;
+    }
+ }
+
+/*Navbar Media sm and xs*/
+@media (min-width: 300px) and (max-width: 767px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        &:after {
+            content: '';
+            display: block;
+            position: relative;
+            top: 10px;
+            background-color: #67B930;
+            width: 0;
+            height: 3px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &:hover:after {
+            width: 15%;
+        }
+    }
+    .navbar-light .navbar-nav .active>.nav-link::after,
+    .navbar-light .navbar-nav .nav-link.active::after,
+    .navbar-light .navbar-nav .nav-link.show::after,
+    .navbar-light .navbar-nav .show>.nav-link::after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 10px;
+        background-color: #67B930;
+        width: 15%;
+        height: 3px;
+    }
+}
+
+

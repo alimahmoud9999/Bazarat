@@ -1,0 +1,113 @@
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 1204px){
+//     .bzaraty .my-share .share-info .btn .secand-btn{
+//         color: red;
+//     }
+//  }
+
+@media (max-width: 1200px) { 
+    .bzaraty .my-share,
+    .bzaraty .my-bazraty{
+        height: inherit;
+        padding-bottom: 50px;
+    }
+    .bzaraty #delete, .bzaraty #add,
+    .bzaraty #delete, .bzaraty #add{
+        left: 0;
+        right: 0;
+    }
+    .bzaraty #add textarea{
+        margin-top: 15px;
+    }
+ }
+ @media (min-width: 992px){
+  
+    .bzaraty #delete, .bzaraty #add,
+    .bzaraty #delete, .bzaraty #add{
+        left: 25%;
+        right: 25%;
+    }
+ }
+
+/*Media sm Screen*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .bzaraty #delete{
+        text-align: center;
+    }
+    .bzaraty #delete, .bzaraty #add,
+    .bzaraty #delete, .bzaraty #add{
+        left: 0;
+        right: 0;
+    }
+    .bzaraty #add textarea{
+        margin-top: 15px;
+    }
+    /* Start Footer MEdia */ 
+    .sec7{
+        form{
+            margin-top: 40px;
+        }
+    }
+    .footer{
+        h3{
+            text-align: center;
+        }
+    }
+    .footer .area, .footer .contact, .footer .menu{
+        text-align: center;
+    } 
+    .footer .area h4::after, .footer .contact h4::after, .footer .menu h4::after {
+        right: 47%;    
+        }
+        .bzaraty .all-bazrat .right-side .btn{
+            float: right !important;
+            margin-bottom: 5px;
+        }
+    }
+/*Media xs Screen*/
+
+@media (max-width: 576px) { 
+    .bzaraty #delete{
+        text-align: center;
+    }
+    .bzaraty #delete, .bzaraty #add{
+        left: 0;
+        right: 0;
+    }
+    .bzaraty #add textarea{
+        margin-top: 15px;
+    }
+    /* Start Footer MEdia */ 
+    .sec7{
+        form{
+            margin-top: 40px;
+        }
+    }
+    .footer{
+        h3{
+            text-align: center;
+        }
+    }
+    .footer .area, .footer .contact, .footer .menu{
+        text-align: center;
+        color:red;
+    } 
+    .footer .area h4::after, .footer .contact h4::after, .footer .menu h4::after {
+        right: 47%;    
+        }
+        /* End Footer*/
+       
+ }
+
+ /* Page Bazarat media*/
+//  @media screen and (min-width: 1100px){
+//     .bazaraty-2-items{
+//         right:0;
+//     }
+//     .bazarty-fade{
+//         display: none;
+//     }
+// }
+
+ 

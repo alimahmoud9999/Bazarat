@@ -1,0 +1,2211 @@
+// Import Fils SCss 
+@import 'sass/vars';
+@import 'sass/component';
+@import 'sass/navbar';
+/*  
+Theme Name : BAZARAT 
+Theme Coder : Ali Mahmoud
+Strat Date : 3/7/2018
+*/
+
+/* Import font */
+
+@font-face {
+    font-family: 'DroidKufi';
+    src: url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: DroidKufi;
+    direction: rtl;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.loadMOreButton {
+    @extend %btn-style2;
+    width: 100%;
+    box-shadow: 2px 12px 9px rgba(0, 0, 0, 0.16);
+    border: none;
+    @extend %trans;
+    &:active {
+        @extend %trans;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.modal-content {
+    margin-top: 60%;
+    text-align: right;
+}
+
+.ajax-load {
+    background-color: rgba(103, 185, 48, .50);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+// Start Headr 
+header {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    height: 100vh;
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+        padding-top: 267px;
+    }
+    .carousel-indicators {
+        bottom: -136px;
+        margin-right: auto;
+        margin-left: 50px;
+    }
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #E7F4DF;
+}
+
+.carousel-indicators .active {
+    background-color: $main-color;
+}
+
+.header-box {
+    h1 {
+        color: $color1;
+        margin-bottom: 20px;
+    }
+    p {
+        color: $color2;
+    }
+    .new-bazar {
+        @extend %btn-style;
+        margin-top: 51px;
+        @extend %shadow;
+        &:active {
+            @extend %shadow-hover;
+        }
+    }
+}
+
+/* Stert Sec 1 and 3*/
+
+.sec3,
+.sec1 {
+    margin-top: -57px;
+    h2 {
+        @extend %head-text;
+        font-size: $font2;
+        margin-bottom: 58px;
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        direction: ltr;
+        text-align: center;
+    }
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #E7F4DF;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .owl-carousel button.active {
+        background-color: $main-color;
+    }
+    .box-info {
+        @extend %box-info;
+    }
+    .btn {
+        @extend %btn-style2;
+    }
+}
+
+.sec3 {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+/* End Sec1 and 3*/
+
+/* Stert Sec 2*/
+
+.sec2 {
+    background-color: #F0F8E9;
+    margin-top: 50px;
+    padding-top: 30px;
+    h2 {
+        @extend %head-text;
+        font-size: $font2;
+        margin-bottom: 58px;
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        direction: ltr;
+        text-align: center;
+    }
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #E7F4DF;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .owl-carousel button.active {
+        background-color: $main-color;
+    }
+    .box-info {
+        width: 255px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
+        margin-top: 10px;
+        margin-bottom: 20px;
+        @extend %box-info;
+        @extend %trans;
+        &:hover {
+            box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+        }
+        img {
+            border-radius: 10px 10px 0 0;
+        }
+        .first {
+            display: block;
+            font-size: $font3;
+            width: 100%;
+            color: #1A1A1A;
+            padding: 10px 0 10px 0;
+            background-color: #F7F7F7;
+            border-bottom: 1px solid #eee;
+        }
+        .date {
+            // span {
+            //     display: block;
+            //     width: 100%;
+            //     color: #1A1A1A;
+            //     padding: 10px 0 10px 0;
+            //     background-color: #F7F7F7;
+            //     border-bottom: 1px solid #eee;
+            //     border-radius: 0 0 10px 10px;
+            //     color: #999999;
+             
+            // }
+            .span-last-type{
+                color: red;
+            }
+        }
+    }
+    .btn {
+        @extend %btn-style2;
+        margin-bottom: 50px;
+    }
+}
+
+/* End Sec2 */
+
+/* Start sec 4*/
+
+.sec4 {
+    background-color: #F7FBF4;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        @extend %head-text;
+        font-size: $font2;
+        margin-bottom: 58px;
+    }
+    .box-sec4 {
+        padding: 15px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.21);
+        background-color: transparent;
+        @extend %trans;
+        &:hover {
+            background-color: #fff;
+            box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.21);
+            border-radius: 10px;
+        }
+        .img-cir {
+            background-color: #fff;
+            width: 150px;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border-radius: 50%;
+            img {
+                margin-top: 33px;
+            }
+            .mr {
+                margin-top: 55px;
+            }
+        }
+        h3 {
+            color: $color2;
+            font-size: $font5;
+            margin: 10px 0 20px 0;
+        }
+        p {
+            color: $color3;
+            font-size: $font6;
+        }
+    }
+}
+
+/* End Sec 4 */
+
+/*Strat Sec 5 */
+
+.sec5 {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        @extend %head-text;
+        font-size: $font2;
+        margin-bottom: 58px;
+    }
+    img {
+        margin-bottom: 80px;
+        transform: scale(1);
+        @extend %trans;
+        &:hover {
+            @extend %trans;
+            transform: scale(1.5);
+        }
+    }
+}
+
+/* End Sec 5 */
+
+/*Start sec 6 */
+
+.sec6 {
+    background-color: #F7FBF4;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        font-size: $font5;
+        color: $color2;
+    }
+    form {
+        margin-top: 30px;
+        input {
+            width: 370px;
+            @extend %input-style;
+        }
+        .btn {
+            margin-right: 20px;
+            border-radius: 10px;
+            @extend %btn-style;
+        }
+    }
+}
+
+/*End sec 6*/
+
+/*Strat sec7 */
+
+.sec7 {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        font-size: $font5;
+        color: $color2;
+        margin-bottom: 50px;
+    }
+    iframe {
+        width: 100%;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, .16);
+    }
+    input {
+        @extend %input-style;
+    }
+    textarea {
+        height: 330px;
+        @extend %textarea;
+    }
+    .btn {
+        @extend %btn-style;
+        float: left;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+}
+
+/*end sec7*/
+
+/*Strat footer */
+
+.footer {
+    background: url(../Images/Art_buttom.png)no-repeat bottom right;
+    padding-top: 50px;
+    .line {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1px;
+        background-color: #CCCCCC;
+        margin-bottom: 70px;
+    }
+    h3 {
+        color: $color1;
+        font-size: $font4;
+        margin-top: 45px;
+        text-align: right;
+    }
+    .socail {
+        ul li {
+            display: inline-block;
+            margin-left: 70px;
+            margin-bottom: 5px;
+            i {
+                color: #CED5D8;
+                @extend %trans;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    .area,
+    .contact,
+    .menu {
+        margin-top: 50px;
+        text-align: right;
+        h4 {
+            color: $color1;
+            font-size: $font6;
+            margin-bottom: 20px;
+            @extend %footer-head;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                margin-bottom: 10px;
+                a {
+                    color: $color3;
+                    font-size: $font7;
+                    text-decoration: none;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    .contact {
+        ul li {
+            color: $color3;
+            font-size: $font7;
+            text-decoration: none;
+            margin-bottom: 5px;
+            cursor: pointer;
+            &:first-child {
+                color: $main-color;
+            }
+            &:nth-child(2) {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+/*end footer */
+
+/* Start Page conract */
+
+.map {
+    padding-top: 150px;
+    .contact-form {
+        margin-top: 60px;
+        form {
+            input {
+                @extend %input-style;
+                margin-bottom: 50px;
+            }
+            textarea {
+                @extend %textarea;
+                height: 226px;
+            }
+            .btn {
+                @extend %btn-style;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/*End Page contact */
+
+/* Start Page BAzrat */
+
+.bazarat {
+    padding-top: 155px;
+    h2 {
+        text-align: right;
+        color: $font1;
+        font-size: $font4;
+        margin-bottom: 50px;
+    }
+    .bazrat-search {
+        text-align: right;
+        .input-style {
+            position: relative;
+            i {
+                position: absolute;
+                left: 15px;
+                top: 18px;
+                bottom: 0;
+                color: $color3;
+            }
+            input {
+                @extend %input-style;
+                color: $color3;
+            }
+        }
+        h5 {
+            color: $main-color;
+            font-size: $font4;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        .dropdown {
+            a {
+                line-height: 40px;
+                font-size: $font4;
+                margin-bottom: 15px;
+            }
+            .date {
+                @extend %input-style;
+                margin-bottom: 15px;
+            }
+            .btn {
+                height: 50px;
+                background-color: #fff;
+                color: $color4;
+                text-align: right;
+                border-radius: 10px;
+                border: 0px solid rgba(0, 0, 0, .16);
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+                text-indent: 2px;
+            }
+            select {
+                -moz-appearance: none;
+                text-indent: 2px;
+                text-overflow: '';
+            }
+        }
+        .dropdown-toggle:after {
+            position: absolute;
+            top: 22px;
+            left: 20px;
+        }
+        .dropdown-menu {
+            left: inherit !important;
+            right: 0;
+            text-align: right;
+        }
+    }
+    .bazarat-content {
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .box-info2 {
+            @extend %box-info;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .pagination2 {
+        direction: ltr;
+        .page-link {
+            color: $main-color;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        .page-item.active .page-link {
+            color: #fff;
+            background-color: $main-color;
+            border-color: $main-color;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+}
+
+/*End Page Bazrat*/
+
+/* Start page BazarDetails */
+
+.Bazar-Details {
+    padding-top: 106px;
+    text-align: right;
+    .Details {
+        height: 100vh;
+        overflow: scroll;
+        position: relative;
+        background-color: #fff;
+        z-index: 9999;
+
+        .box1 {
+            background-color: $main-color;
+            padding: 35px;
+            text-align: center;
+            color: #fff;
+            font-size: $font20;
+        }
+        .box-Details {
+            ul {
+                li {
+                    font-size: $font20;
+                    margin-bottom: 20px;
+                    &:first-of-type {
+                        margin-top: 20px;
+                    }
+                }
+                .last-day {
+                    color: #E62727;
+                }
+            }
+            .btn-show {
+                text-align: center;
+                .btn {
+                    @extend %btn-style;
+                }
+            }
+        }
+        .Details-info {
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            margin-top: 50px;
+            @extend %box-style;
+        }
+    }
+    .vr {
+        height: 100vh;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        a-scene{
+            height: 100% !important;
+          
+        }
+        button {
+            position: absolute;
+        }
+        .one,
+        .tow,
+        .three {
+            background-color: #cccccc80;
+            color: #fff;
+            border: 1px solid #ccc;
+            padding: 5px 20px;
+            border-radius: 10px;
+            z-index: 2;
+            cursor: pointer;
+        }
+        .one {
+            left: 24px;
+            top: 24px;
+        }
+        .tow {
+            top: 24px;
+            left: 170px;
+            opacity: 5;
+        }
+        .three {
+            left: 24px;
+            bottom: 110px;
+            height: 50px;
+        }
+    }
+}
+
+/*End page BazarDetails.html */
+
+/*Star Page book bazear*/
+
+.first-step {
+    padding-top: 106px;
+    text-align: center;
+    background: url(../Images/Art_top.png)no-repeat left;
+    .steps {
+        margin-top: 50px;
+        .box-steps {
+            span {
+                @extend %steps;
+            }
+            .active {
+                background-color: $main-color;
+                color: #fff;
+            }
+            p {
+                font-size: 15px;
+                color: $color1;
+            }
+            .f-box-book {
+                .select-img {
+                    width: 20px;
+                    color: red;
+                    overflow: hidden;
+                    &:focus {
+                        font-size: 0;
+                    }
+                }
+            }
+        }
+        .chose-image {
+            margin-top: 80px;
+            margin-bottom: 80px;
+            .file-upload {
+                position: relative;
+                display: inline-block;
+            }
+            .file-upload__label {
+                display: block;
+                background: #fff;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .file-upload__input {
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                font-size: 1;
+                width: 0;
+                height: 100%;
+                opacity: 0;
+            }
+            h2 {
+                padding-top: 8%;
+            }
+            .btn {
+                @extend %btn-style2;
+                margin-top: 27%;
+                line-height: 45px;
+                height: 160px;
+
+            }
+        }
+        .title {
+            margin-top: 50px;
+            margin-bottom: 33px;
+            p {
+                color: $color1;
+                font-size: $font4;
+            }
+        }
+        .box-book {
+            .btn {
+                margin-right: 10px;
+                border-radius: 10px;
+                padding: 5px 15px;
+                &:hover,
+                &:active {
+                    background-color: #f2f1f1;
+                }
+            }
+        }
+        .box-sub {
+            height: 320px;
+            background-color: #fff;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, .16);
+            margin-top: 16px;
+            border-radius: 10px;
+            margin-bottom: 37px;
+            padding: 20px;
+        }
+        .f-box-book {
+            input {
+                @extend %input-style;
+                margin-bottom: 37px;
+            }
+            a {
+                @extend %btn-style;
+                border-radius: 10px;
+            }
+        }
+        select {
+            @extend %input-style;
+        }
+    }
+    .area-book {
+        width: 40px;
+        height: 40px;
+        background-color: #cff;
+        border: 2px solid #000;
+        margin-top: 10px;
+        border-radius: 100%;
+        line-height: 40px;
+        cursor: pointer;
+        label {
+            cursor: pointer;
+        }
+        input {
+            display: none;
+        }
+    }
+    .active {
+        background-color: #f3bb15;
+    }
+    .booked-area {
+        background-color: #f3bb15;
+        opacity: .6;
+        cursor: not-allowed;
+    }
+}
+
+/*End Page Book bazar */
+
+/*Start page Payment */
+
+.sacend-step {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    background: url(../Images/Art_top.png)no-repeat left;
+    .box-steps {
+        margin-top: 50px;
+        text-align: center;
+        span {
+            @extend %steps;
+        }
+        .active {
+            background-color: $main-color;
+            color: #fff;
+        }
+        p {
+            font-size: 15px;
+            color: $color1;
+            margin-bottom: 50px;
+        }
+    }
+    .form-pay {
+        border-radius: 10px;
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, .16);
+        background-color: #F7FBF4;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        .form-title {
+            font-size: $font5;
+            font-weight: bolder;
+            color: $color1;
+        }
+        .rido {
+            margin-right: 20px;
+            img {
+                margin-top: -24px;
+            }
+        }
+        input {
+            @extend %input-style;
+            margin-bottom: 30px;
+        }
+        select {
+            @extend %input-style;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            color: #777;
+        }
+        a {
+            @extend %btn-style;
+            border-radius: 10px;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .step-info {
+        p {
+            color: $color1;
+            font-size: $font4;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+/*End Page payment */
+
+/* Start Page Payment stat */
+
+.payment-stat {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    background: url(../Images/Art_top.png)no-repeat left;
+    .box-steps {
+        margin-top: 50px;
+        text-align: center;
+        span {
+            @extend %steps;
+        }
+        .active {
+            background-color: $main-color;
+            color: #fff;
+        }
+    }
+    .stat-title {
+        margin-top: 50px;
+        margin-bottom: 70px;
+        color: $color1;
+        h5 {
+            font-size: $font5;
+        }
+        p {
+            font-size: $font4;
+            padding-top: 20px;
+        }
+    }
+    .stat {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, .16);
+        background-color: #fff;
+        text-align: right;
+        .stat-info {
+            margin-top: 49px;
+            margin-bottom: 49px;
+            margin-right: 49px;
+            p {
+                padding-bottom: 15px;
+                color: $color1;
+                font-size: $font4;
+            }
+        }
+        .btn-stat {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            a {
+                @extend %btn-style2;
+            }
+        }
+    }
+}
+
+/* End PAge Payment stat */
+
+/* Start Page BAzraty */
+
+.bzaraty {
+    padding-top: 106px;
+    .bazraty-title {
+        padding-top: 17px;
+        padding-right: 24px;
+        h2 {
+            color: $color1;
+            font-size: $font4;
+        }
+    }
+    .my-bazraty {
+        background-color: #eee;
+        height: 100vh;
+        box-shadow: -1px 0px 6px rgba(0, 0, 0, .16);
+        border-left: 3px solid #ccc;
+        text-align: right;
+        .bzaraty-info {
+            margin-top: 50px;
+            @extend %box-style;
+            .info2 {
+                background-color: #fff;
+                cursor: pointer;
+                border: 3px solid transparent;
+                @extend %trans;
+                &:hover {
+                    border: 3px solid $main-color;
+                }
+            }
+            .active {
+                border: 3px solid $main-color;
+            }
+        }
+    }
+    .my-share {
+        background-color: #eee;
+        height: 100vh;
+        overflow: scroll;
+        h2 {
+            margin-bottom: 50px;
+        }
+        .share-info {
+            padding-left: 15px;
+            padding-right: 15px;
+            .btn {
+                position: relative;
+                @extend %btn-style2;
+                height: 65px !important;
+                width: 100%;
+                border-radius: 10px;
+                font-size: $font17;
+                font-weight: bold;
+                color: $color1;
+                margin-bottom: 20px;
+                .first-btn {
+                    display: inline;
+                    float: right;
+                }
+                .secand-btn {
+                    display: inline;
+                    float: left;
+                }
+                &:hover {
+                    background-color: $main-color;
+                    color: #fff;
+                }
+            }
+            .active {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+    .all-bazrat {
+        .right-side,
+        .left-side {
+            margin-top: 30px;
+            margin-top: 30px;
+            .btn {
+                @extend %btn-style2;
+                width: 124px;
+                height: 124px;
+                border-radius: 10px;
+                font-size: 14px;
+            }
+        }
+        .right-side {
+            .btn {
+                margin-right: 24px;
+            }
+        }
+        .left-side {
+            .btn {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+    .bazaraty-itms {
+        padding-top: 105px;
+        .box-itms {
+            margin-bottom: 27px;
+            .imags {
+                img {
+                    width: 184px;
+                    height: 184px;
+                    border-radius: 10px;
+                    box-shadow: 1px 2px 4px rgba(0, 0, 0, .16);
+                }
+            }
+            span:first-of-type {
+                color: $color1;
+                font-size: $font20;
+                padding-top: 8px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+    #delete {
+        @extend %box-act;
+        h3 {
+            padding: 50px;
+            font-size: $font5;
+        }
+        .btn-box {
+            margin-top: 34px;
+            margin-bottom: 30px;
+            .btn {
+                width: 190px;
+                height: 60px;
+                margin-left: 10px;
+                margin-right: 5px;
+                font-size: $font5;
+                border-radius: 10px;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, .16);
+                margin-bottom: 15px;
+            }
+        }
+    }
+    #update {
+        @extend %box-act;
+        background-color: #f7fbf4;
+        i {
+            background-color: #fff;
+            padding: 10px;
+            color: $color1;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+            cursor: pointer;
+        }
+        h3 {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: $color1;
+            font-size: $font5;
+        }
+        .file-upload {
+            position: relative;
+            display: inline-block;
+        }
+        .file-upload__label {
+            display: block;
+            background: #fff;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .file-upload__input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 1;
+            width: 0;
+            height: 100%;
+            opacity: 0;
+        }
+        .btn-box {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            .btn {
+                @extend %btn-style;
+                border-radius: 10px;
+            }
+        }
+        .input-text {
+            margin-top: 10px;
+            input {
+                @extend %input-style;
+                margin-block-end: 15px;
+                width: 65%;
+            }
+        }
+        textarea {
+            resize: none;
+            @extend %textarea;
+            height: 150px;
+            width: inherit;
+        }
+    }
+    #add {
+        @extend %box-act;
+        background-color: #f7fbf4;
+        i {
+            background-color: #fff;
+            padding: 10px;
+            color: $color1;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+            cursor: pointer;
+        }
+        h3 {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: $color1;
+            font-size: $font5;
+        }
+        .file-upload {
+            position: relative;
+            display: inline-block;
+        }
+        .file-upload__label {
+            display: block;
+            background: #fff;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .file-upload__input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 1;
+            width: 0;
+            height: 100%;
+            opacity: 0;
+        }
+        .btn-box {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            .btn {
+                @extend %btn-style;
+                border-radius: 10px;
+            }
+        }
+        .input-text {
+            margin-top: 10px;
+            input {
+                @extend %input-style;
+                margin-block-end: 15px;
+                width: 65%;
+            }
+        }
+        textarea {
+            resize: none;
+            @extend %textarea;
+            height: 150px;
+            width: inherit;
+        }
+    }
+}
+
+/* End Page BAzraty*/
+
+/*Start page login */
+
+.login-header {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    .login-itms {
+        padding-top: 155px;
+        h3 {
+            font-size: $font50;
+            color: $color1;
+        }
+        .login-info {
+            margin-top: 52px;
+            background-color: #F7FBF4;
+            @extend %shadow;
+            border-radius: 10px;
+            min-height: 400px;
+            padding-left: 38px;
+            padding-right: 38px;
+        }
+        .login-info {
+            padding-top: 60px;
+            input {
+                margin-bottom: 30px;
+                @extend %input-style;
+            }
+            input:last-of-type {
+                margin-left: 15px;
+                border: 3px solid #000;
+            }
+            label {
+                position: relative;
+                top: -19px;
+                color: $color1;
+                font-size: $font20;
+            }
+            .btn-login {
+                @extend %btn-style;
+                @extend %shadow;
+                &:active {
+                    @extend %shadow-hover;
+                }
+            }
+            .join {
+                margin-top: 50px;
+                padding-bottom: 50px;
+                a {
+                    color: $color1;
+                    font-size: $font20;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*End page login */
+
+/*Start forget password */
+
+.forget-itms {
+    padding-top: 155px;
+    h3 {
+        font-size: $font50;
+        color: $color1;
+    }
+    .forget-info {
+        margin-top: 52px;
+        background-color: #F7FBF4;
+        @extend %shadow;
+        border-radius: 10px;
+        min-height: 400px;
+        padding-left: 38px;
+        padding-right: 38px;
+        padding-top: 60px;
+        p {
+            color: $color1;
+            font-size: $font5;
+            margin-block-end: 46px;
+        }
+        input {
+            @extend %input-style;
+            margin-bottom: 30px;
+        }
+        .btn-forget {
+            @extend %btn-style;
+            @extend %shadow;
+            margin-bottom: 30px;
+            &:active {
+                @extend %shadow-hover;
+            }
+        }
+        .join-forget {
+            a {
+                padding-bottom: 30px;
+                color: $color1;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+/*End Password */
+
+/*Start Page signup */
+
+.signup-itms {
+    padding-top: 155px;
+    h3 {
+        font-size: $font50;
+        color: $color1;
+    }
+    .signup-info {
+        margin-top: 52px;
+        margin-bottom: 52px;
+        background-color: #F7FBF4;
+        @extend %shadow;
+        border-radius: 10px;
+        min-height: 400px;
+        padding-left: 38px;
+        padding-right: 38px;
+        padding-top: 60px;
+        input {
+            margin-bottom: 30px;
+            @extend %input-style;
+        }
+        .box-check {
+            input[type="radio"] {
+                width: 30%;
+            }
+            label {
+                color: $color1;
+                font-size: $font4;
+                position: relative;
+                top: -15px;
+                right: -40px;
+            }
+        }
+        .btn-signup {
+            @extend %btn-style;
+            @extend %shadow;
+            &:active {
+                @extend %shadow-hover;
+            }
+        }
+        .join-signup {
+            margin-top: 50px;
+            padding-bottom: 50px;
+            a {
+                color: $color1;
+                font-size: $font20;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+/*End page signup*/
+
+/*Start page new bazar */
+
+.size {
+    height: 298px;
+    background-color: #fff;
+    @extend %shadow;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    position: relative;
+    img{
+        padding-top: 35px;
+    }
+    input {
+        @extend %input-style;
+        width: inherit;
+        position: absolute;
+        bottom: 0;
+        right: 48%;
+        margin:0 !important;
+        box-shadow: none !important;
+    }
+}
+.btn-continue{
+    @extend %btn-style;
+}
+/*End Page New bazar */
+
+/*Start Page chose bazar */
+
+.chose {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    .steps {
+        padding-top: 156px;
+        .box-steps {
+            span {
+                @extend %steps;
+            }
+            .active {
+                background-color: $main-color;
+                color: #fff;
+            }
+            p {
+                font-size: 15px;
+                color: $color1;
+            }
+        }
+    }
+    .chose-title {
+        color: $color1;
+        font-size: $font4;
+        margin-top: 60px;
+        margin-block-end: 30px;
+    }
+    .chose-box {
+        height: 345px;
+        @extend %shadow2;
+        border-radius: 10px;
+        padding-top: 1px;
+        overflow: hidden;
+        position: relative;
+        .input-price {
+            @extend %input-style;
+            border: 1px solid #eee;
+        }
+        .box2 {
+            width: 70%;
+            height: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            border: dashed 3px #eb8e91;
+            text-align: center;
+        }
+        p {
+            padding-top: 50px;
+        }
+        .countar {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            border-radius: 11px;
+            .btn {
+                width: 53px;
+            }
+            .btn:first-of-type {
+                background-color: #FF9292;
+                color: #fff;
+            }
+            .btn:last-of-type {
+                background-color: #F7D35E;
+                color: #fff;
+            }
+            input {
+                width: 137px;
+                border: none;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+        }
+    }
+    .box-detils {
+        margin-top: 30px;
+        padding: 20px 0px;
+        background-color: #fff;
+        text-align: center;
+        @extend %shadow;
+        p {
+            color: $color1;
+            font-size: $font20;
+            input {
+                border: none;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                cursor: none;
+            }
+        }
+    }
+    .btn-cont {
+        margin-top: 60px;
+        @extend %btn-style;
+        @extend %shadow;
+        &:active {
+            @extend %shadow-hover;
+        }
+    }
+}
+
+/*End Page Chose bazar */
+
+/* Start Page payment MEthode */
+
+.payment-methode {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    .steps {
+        padding-top: 156px;
+        margin-bottom: 51px;
+        .box-steps {
+            span {
+                @extend %steps;
+            }
+            .active {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+    .form-pay {
+        border-radius: 10px;
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, .16);
+        background-color: #F7FBF4;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        .form-title {
+            font-size: $font5;
+            font-weight: bolder;
+            color: $color1;
+        }
+        .rido {
+            margin-right: 20px;
+            img {
+                margin-top: -24px;
+            }
+        }
+        input {
+            @extend %input-style;
+            margin-bottom: 30px;
+        }
+        select {
+            @extend %input-style;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            color: #777;
+        }
+        a {
+            @extend %btn-style;
+            border-radius: 10px;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .step-info {
+        p {
+            color: $color1;
+            font-size: $font4;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/*End page payment Methode*/
+
+/* Start page payment-stat2 */
+
+.payment-stat2 {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    .steps {
+        padding-top: 156px;
+        margin-bottom: 51px;
+        .box-steps {
+            span {
+                @extend %steps;
+            }
+            .active {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+    }
+    .payment-stat-info {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, .16);
+        padding: 20px;
+        p {
+            margin-top: 30px;
+            color: $color1;
+            font-size: $font20;
+        }
+        .btn {
+            margin-top: 30px;
+            @extend %btn-style2;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .26);
+        }
+    }
+    .payment-stat-title {
+        margin-top: 124px;
+        h2 {
+            font-size: $font5;
+            color: $color1;
+        }
+        p {
+            font-size: $font4;
+            color: $color1;
+        }
+    }
+}
+
+/*End page payment-stat2 */
+
+/*Start page Bazar Owners */
+
+.bazarOwners {
+    padding-top: 156px;
+    h3 {
+        color: $color1;
+        font-size: $font4;
+        margin-bottom: 50px;
+    }
+    .bazarat-own {
+        margin-bottom: 50px;
+        .box-owners {
+            @extend %box-info;
+            display: block;
+            margin-bottom: 50px;
+            &:hover {
+                text-decoration: none;
+            }
+            .span-last-type {
+                color: $main-color !important;
+                font-size: $font4 !important;
+            }
+        }
+    }
+}
+
+/*End page Bazar Owners */
+
+/*Start page owners profil */
+
+.ounersProfile {
+    padding-top: 156px;
+    .profile {
+        margin-top: -150px;
+        background-color: #F5F5F5;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 50px;
+        .profile-content {
+            padding-top: calc(156px + 156px - 100px);
+            .img-profile {
+                width: 160px;
+                height: 160px;
+                border: 1px solid #eee;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                margin-bottom: 30px;
+            }
+        }
+        h2 {
+            color: $color1;
+            font-size: $font21;
+        }
+        h3 {
+            color: $color1;
+            margin-bottom: 20px;
+            font-size: $font17;
+        }
+        p {
+            color: $color3;
+            font-size: $font17;
+        }
+        a {
+            @extend %btn-style;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+    .head-owner {
+        color: $color1;
+        font-size: $font4;
+        margin-bottom: 30px;
+    }
+    .profile-owners {
+        @extend %box-info;
+        display: block;
+        margin-bottom: 50px;
+        &:hover {
+            text-decoration: none;
+        }
+        .span-last-type {
+            display: block;
+            width: 100%;
+            color: $color1;
+            padding: 10px 0 10px 0;
+            background-color: #F7F7F7;
+            border-bottom: 1px solid #eee;
+            border-radius: 0 0 10px 10px;
+            // color: #999999;
+        }
+    }
+}
+
+/*End page owners profil */
+
+/*Start page 404 */
+
+.err404 {
+    background: url(../Images/Art_top.png)no-repeat;
+    background-position: left;
+    padding-top: 156px;
+    height: 100vh;
+    h1 {
+        font-size: 150px;
+        color: $color1;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+    h2 {
+        font-size: 32px;
+        color: $color1;
+        margin-bottom: 30px;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        @extend %btn-style;
+        border: 15px !important;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+/*end page 404*/
+
+/*Start Page My Messages */
+
+.my-messages {
+    min-height: 100vh;
+    overflow: hidden;
+    .user-chat {
+        padding-top: 110px;
+        height: 100vh;
+        overflow: scroll;
+        .user-box-chat {
+            background-color: #F0F8E9;
+            padding: 15px 15px 5px 10px;
+            border-bottom: 2px solid #eee;
+            h3 {
+                margin-top: 15px;
+                color: $color1;
+                font-size: $font17;
+            }
+            p {
+                margin-top: 15px;
+            }
+            span {
+                color: $color3;
+                text-align: left;
+                display: block;
+            }
+        }
+        .un-read {
+            background-color: #fff;
+        }
+    }
+    .message-profile {
+        padding-top: 110px;
+        background-color: #F5F5F5;
+        .profile-imge {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 30px auto;
+            padding-top: 60px;
+        }
+        h2 {
+            margin-top: 90px;
+            color: $color1;
+            font-size: $font21;
+        }
+        h3 {
+            color: $color1;
+            font-size: $font21;
+        }
+        p {
+            margin-top: 20px;
+            color: $color3;
+            padding: 0 15px 0 15px;
+        }
+        a {
+            margin-top: 15px;
+            color: $main-color;
+            text-decoration: none;
+            font-size: $font17;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .content-chat {
+        padding-top: 110px;
+        min-height: 100vh;
+        overflow: scroll;
+        position: relative;
+        .chat-send,
+        .chat-received {
+            width: 80%;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: 1px solid #F7F7F7;
+        }
+        .chat-send {
+            float: left;
+            background-color: #F7FBF4;
+            margin-left: 20px;
+            padding: 20px;
+        }
+        .chat-received {
+            float: right;
+            background-color: #F7F7F7;
+            margin-right: 20px;
+            padding: 20px;
+        }
+        .chat-p {
+            font-size: $font7;
+        }
+        .span-chat {
+            font-size: 12px;
+            display: block;
+        }
+        .box-send {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            background-color: #ddd;
+            z-index: 99;
+            textarea {
+                width: 67%;
+                height: 70px;
+                resize: none;
+                float: right;
+                border: 1px solid #F7F7F7;
+            }
+            .btn {
+                background-color: $main-color;
+                float: right;
+                height: 70px;
+                width: 70px;
+                position: absolute;
+                bottom: 0;
+                left: 33%;
+                color: #fff;
+            }
+        }
+    }
+}
+
+/*End page My Messages*/
+
+/*Start Page Edit User */
+
+.edit-user {
+    padding-top: 156px;
+    background-color: #F7FBF4;
+    height: 100vh;
+    .box-head-edit {
+        margin-bottom: 50px;
+        h2 {
+            font-size: $font4;
+            color: $color4;
+            cursor: pointer;
+        }
+        .active {
+            color: $main-color;
+        }
+    }
+    .file-upload {
+        position: relative;
+        display: inline-block;
+    }
+    .file-upload__label {
+        display: block;
+        background: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .file-upload__input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 1;
+        width: 0;
+        height: 100%;
+        opacity: 0;
+    }
+    .input-text {
+        margin-top: 20px;
+        input[type="text"] {
+            width: 264px;
+            @extend %input-style;
+        }
+    }
+    .select-text {
+        margin-top: 25px;
+        select {
+            @extend %input-style;
+            width: 266px;
+        }
+    }
+    .box-textarea {
+        margin-top: 25px;
+        textarea {
+            @extend %textarea;
+        }
+    }
+    .box-btn {
+        margin-top: 15px;
+        margin-bottom: 50px;
+        .btn {
+            @extend %btn-style;
+            @extend %shadow;
+            &:active {
+                @extend %shadow-hover;
+            }
+        }
+    }
+    .change-pass {
+        input {
+            @extend %input-style;
+        }
+        .btn {
+            margin-top: 20px;
+            @extend %btn-style;
+            @extend %shadow;
+            &:active {
+                @extend %shadow-hover;
+            }
+        }
+    }
+    .fede-toggle-one,
+    .fade-togle-tow {
+        display: none;
+    }
+}
+
+/*ENd PAge Edit USer*/
+
+/* Start PAge bazaraty */
+
+.bazaraty-2-items {
+    .box-bazraty-one {
+        background-color: #F0F8E9;
+        height: 100vh;
+        padding-top: 165px;
+        border: 1px solid #eee;
+        .bazraty-title {
+            h2 {
+                font-size: 17px;
+                margin-right: 25px;
+            }
+        }
+        .bzaraty-info {
+            background-color: #fff;
+            margin-left: 5px;
+            margin-right: 17px;
+            margin-top: 25px;
+            .info2 {
+                border-radius: 5px;
+                overflow: hidden;
+                cursor: pointer;
+                img {
+                    width: 60px;
+                    height: 70px;
+                    float: right;
+                }
+                p {
+                    margin-right: 65px;
+                    font-size: $font17;
+                    color: $color1;
+                }
+                span {
+                    display: block;
+                    margin-right: 66px;
+                    padding-top: 5px;
+                    font-size: 12px;
+                    color: $color3;
+                }
+            }
+        }
+        .active {
+            border: 2px solid $main-color;
+        }
+        .btn {
+            @extend %btn-style;
+            width: 133px;
+            @extend %shadow;
+            &:active {
+                @extend %shadow-hover;
+            }
+        }
+    }
+    .bazarty-info {
+        margin-top: 20px;
+        padding-right: 15px;
+        p {
+            color: $color1;
+            font-size: $font17;
+        }
+    }
+    .box-bazarty-tow {
+        background-color: red;
+        height: 100vh;
+        padding-top: 165px;
+        overflow: scroll;
+        padding-bottom: 50px;
+        .bazar-size {
+            width: 255px;
+            height: 298px;
+            background-color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            p {
+                position: absolute;
+                bottom: 0;
+                right: 60px;
+            }
+        }
+    }
+}
+
+.box-bazarty-tow {
+    background-color: #F5F5F5;
+    height: 100vh;
+    padding-top: 165px;
+    overflow: scroll;
+    .bazar-size {
+        width: 255px;
+        height: 298px;
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        p {
+            position: absolute;
+            bottom: 0;
+            right: 60px;
+        }
+    }
+    .bazarty-info {
+        margin-top: 20px;
+        padding-right: 85px;
+        p {
+            color: $color1;
+            font-size: $font17;
+        }
+    }
+    .edit-info {
+        width: 50px;
+        height: 50px;
+        border: 1px solid $color4;
+        background-color: #fff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        cursor: pointer;
+        i {
+            line-height: 50px;
+        }
+    }
+}
+
+.windo-edit {
+    width: 100%;
+    height: 100vh;
+    margin-top: -50px;
+    background-color: rgba(0, 0, 0, .16);
+    position: absolute;
+    z-index: 9999999999999;
+    display: none;
+    .form-edit {
+        margin-top: 25%;
+        background-color: #F7FBF4;
+        padding: 50px;
+        border-radius: 10px;
+        input {
+            @extend %input-style;
+        }
+        .btn-form-edit {
+            margin-top: 52px;
+            margin-bottom: +30px;
+            .btn {
+                width: 180px !important;
+                @extend %shadow;
+                &:active {
+                    @extend %shadow-hover;
+                }
+                &:first-of-type {
+                    @extend %btn-style;
+                }
+                &:last-of-type {
+                    @extend %btn-style2;
+                    height: 50px !important;
+                }
+            }
+        }
+    }
+}
+
+.bazaraty-content {
+    padding-top: 156px;
+    .btn {
+        @extend %btn-style2;
+        font-size: $font21;
+        i {
+            margin-left: 5px;
+        }
+    }
+    .btn-cancel {
+        color: #E65A5A;
+    }
+    .btn-cancel,
+    .btn-save {
+        display: none;
+    }
+    .box-chose {
+        height: 345px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        @extend %shadow;
+        .box-size-bazarty {
+            width: 70%;
+            height: 50%;
+            border: 1px dotted #ddd;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 50px;
+        }
+        p {
+            text-align: center;
+            font-size: $font4;
+            color: $color4;
+            margin-top: 30px;
+        }
+        .box-value {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            border-radius: 11px;
+            .btn {
+                width: 53px;
+                display: none;
+            }
+            .btn:first-of-type {
+                background-color: #FF9292;
+                color: #fff;
+            }
+            .btn:last-of-type {
+                background-color: #F7D35E;
+                color: #fff;
+            }
+            input {
+                width: 106px;
+                border: none;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+        }
+    }
+    .bazraty-detils {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        min-height: 120px;
+        border-radius: 10px;
+        text-align: center;
+        @extend %shadow;
+        p {
+            padding-top: 11%;
+            color: $color1;
+            font-size: $font20;
+            font-weight: bolder;
+        }
+    }
+}
+
+/* ENd Page Bazarty */
+
+/*Start Media For Responsve*/
+
+@import 'sass/_media';
